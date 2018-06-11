@@ -1,7 +1,7 @@
 @font-face{
 	font-family : pragerheadlines;
-	src : url(../prager-headlines/Prager-Headlines.svg);
-	src : url(../prager-headlines/Prager-Headlines.ttf);
+	src : url(prager-headlines/Prager-Headlines.svg);
+	src : url(prager-headlines/Prager-Headlines.ttf);
 }
 
 ul {
