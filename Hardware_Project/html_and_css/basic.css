@@ -1,0 +1,46 @@
+@font-face{
+	font-family : pragerheadlines;
+	src : url(../prager-headlines/Prager-Headlines.svg);
+	src : url(../prager-headlines/Prager-Headlines.ttf);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	text-align: center;
+}
+
+li {
+    float: center;
+	display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+	font-family : pragerheadlines;
+	font-size : 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: grey ;
+}
+
+body{
+	background-color: #0099cc;
+}
+
+
+#validator{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
